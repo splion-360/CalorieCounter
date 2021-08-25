@@ -1,0 +1,32 @@
+<h1>FLASK APP RUNNING</h1>
+<h2>Please enter your measurements below:</h2>
+<form  method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.male.label }} &emsp; {{form.male}}
+    <br>
+    <br>
+    {{ form.female.label}} &emsp;{{form.female}}
+    <br>
+    <br>
+    {{form.age.label}}&emsp;{{form.age}}
+    <br>
+    <br>
+    {{form.weight.label}}&emsp;{{form.weight}}
+    <br>
+    <br>
+    {{form.height.label}}&emsp;{{form.height}}
+    <br>
+    <br>
+    {{form.duration.label}}&emsp;{{form.duration}}
+    <br>
+    <br>
+    {{form.heartbeat.label}}&emsp;{{form.heartbeat}}
+    <br>
+    <br>
+    {{form.body_temp.label}}&emsp;{{form.body_temp}}
+    <br>
+    <br>
+    {{ form.submit() }}
+    <br>
+</form>
