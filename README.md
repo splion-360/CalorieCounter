@@ -1,5 +1,5 @@
 # Calorie Counter
-##### A machine learning based and heroku hosted calorie counter application which takes in certain parameters and gives an approximate measure of the total calories burnt after workout
+##### A machine learning based and [heroku](https://www.heroku.com/) hosted calorie counter application which takes in certain parameters and gives an approximate measure of the total calories burnt after workout
 
 #### Dataset:
 The [fmendes-DAT263x-demos](https://www.kaggle.com/fmendes/fmendesdat263xdemos) dataset is used for this simple application. This dataset was created with the notion of establishing correlations between calories burnt, exercise duration and body type.
