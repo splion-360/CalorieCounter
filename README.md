@@ -24,7 +24,7 @@ The app interface is shown below
 * ***body_temp***:    Enter the body temperature in celcius
 
 ##### **Output**:
-The app output is shown below
+The output of the application is shown below
 
 <p align="center">
   <img src="./Outcome_flask.png" width = "500" height = "250"/>
